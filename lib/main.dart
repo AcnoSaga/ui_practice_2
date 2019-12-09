@@ -190,7 +190,7 @@ class HomePage extends StatelessWidget {
                       itemCount: 3,
                       itemBuilder: (context, index) {
                         return Padding(
-                          padding: const EdgeInsets.fromLTRB(30.0, 20, 20, 20),
+                          padding: const EdgeInsets.fromLTRB(30.0, 20, 10, 0),
                           child: Card(
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(20),
@@ -244,16 +244,6 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ],
-    );
-  }
-}
-
-
-class  extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      
     );
   }
 }
